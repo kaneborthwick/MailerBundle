@@ -1,0 +1,23 @@
+{
+    "name": "towersystems/mailer-bundle",
+    "type": "library",
+    "description": "Zend Expressive ; Send Emails",
+    "authors": [
+        {
+            "name": "kane",
+            "email": "kane.borthwick@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.1",
+        "towersystems/resource-bundle": "^1.0.0",
+        "zendframework/zend-mail": "^2.10",
+        "zendframework/zend-expressive-twigrenderer": "^2.0",
+        "twig/extensions": "^1.5"
+    },
+    "autoload": {
+        "psr-4": { "MailerBundle\\": "src\\" }
+    }
+}

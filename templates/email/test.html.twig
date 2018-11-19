@@ -1,0 +1,11 @@
+{# MailerBundle/templates/email/test.html.twig #}
+
+{% block subject %}
+    Your email is configured!
+{% endblock %}
+
+{% block body %}
+    {% autoescape %}
+        Your email is configured correctly!
+    {% endautoescape %}
+{% endblock %}
