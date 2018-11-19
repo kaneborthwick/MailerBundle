@@ -10,6 +10,10 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "keywords": [
+        "expressive",
+        "zend-expressive"
+    ],
     "require": {
         "php": "^7.1",
         "towersystems/resource-bundle": "^1.0.0",
