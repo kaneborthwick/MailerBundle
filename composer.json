@@ -17,6 +17,7 @@
     "require": {
         "php": "^7.1",
         "towersystems/resource-bundle": "dev-master@dev",
+        "towersystems/mailer": "dev-master@dev",
         "zendframework/zend-mail": "^2.10",
         "zendframework/zend-expressive-twigrenderer": "^2.0",
         "twig/extensions": "^1.5"
